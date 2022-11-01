@@ -90,31 +90,39 @@
 					<Flex spacing="var(--xs)" wide tall noWrap>
 						<Area>
 							<Split split="15%" gap="var(--xs)" column>
-								<Area slot="1" css="background-color: var(--main); border: solid 1px var(--line-d); border-radius: var(--mini-m);">
+								<Area slot="1" css="background-color: var(--main-l); border: solid 1px var(--line-d); border-radius: var(--mini-m);">
 									<Pad padding="var(--xs)">
 										<Flex spacing="var(--xs)" column>
 											<Area>
-												<span style="font-size: 1.1rem; font-weight: bold;">
-													{#if [undefined, null, ""].includes($build.name)}
-														<span style="color: var(--text-none);">Unnamed Build</span>
-													{:else}
-														{$build.name}
-													{/if}
-												</span>
+												{#if $options.editing}
+													<InputLine bind:value={$build.name} placeholder="Build Name"/>
+												{:else}
+													<span style="font-size: 1.1rem; font-weight: bold;">
+														{#if [undefined, null, ""].includes($build.name)}
+															<span style="color: var(--text-none);">Unnamed Build</span>
+														{:else}
+															{$build.name}
+														{/if}
+													</span>
+												{/if}
 											</Area>
 											<Area css="color: var(--text-d)">
-												<span style="font-size: 0.9rem">
-													{#if [undefined, null, ""].includes($build.description)}
-														<i><span style="color: var(--text-none);">No Description Provided.</span></i>
-													{:else}
-														{$build.description}
-													{/if}
-												</span>
+												{#if $options.editing}
+													<InputText bind:value={$build.description} placeholder="Build Description"></InputText>
+												{:else}
+													<span style="font-size: 0.9rem">
+														{#if [undefined, null, ""].includes($build.description)}
+															<i><span style="color: var(--text-none);">No Description Provided.</span></i>
+														{:else}
+															{$build.description}
+														{/if}
+													</span>
+												{/if}
 											</Area>
 										</Flex>
 									</Pad>
 								</Area>
-								<Area slot="2" css="background-color: var(--main); border: solid 1px var(--line-d); border-radius: var(--mini-m);">
+								<Area slot="2" css="background-color: var(--main-l); border: solid 1px var(--line-d); border-radius: var(--mini-m);">
 									<Center>
 										Racials
 									</Center>
@@ -122,11 +130,7 @@
 							</Split>
 						</Area>
 						{#each $build.essences as _, eIndex}
-							<Area css="background-color: var(--main); border: solid 1px var(--line-d); border-radius: var(--mini-m);">
-								<Center>
-									Essence #{eIndex}
-								</Center>
-							</Area>
+							<C_Essence {eIndex}/>
 						{/each}
 					</Flex>
 				</Pad>
