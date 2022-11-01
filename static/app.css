@@ -1,0 +1,93 @@
+:root {
+	--main-l: #35383D;
+	--main: #2B2E33;
+	--main-d: #212429;
+
+	--accent-l: #0F7C95;
+	--accent: #0D6A80;
+	--accent-d: #094D5D;
+
+	--text: #CCC;
+	--text-d: #AAA;
+	--text-none: #666;
+	--line: #CCD0D0;
+	--line-d: #555959;
+
+	--mini-xs: 0.08rem;
+	--mini-s: 0.16rem;
+	--mini-m: 0.24rem;
+	--mini-l: 0.32rem;
+	--mini-xl: 0.4rem;
+	--xs: 0.64rem;
+	--s: 1.28rem;
+	--m: 1.92rem;
+	--l: 2.56rem;
+	--xl: 3.2rem;
+}
+
+* {
+	color: var(--text);
+	font-family: 'Manrope', sans-serif;
+	text-decoration: none;
+	vertical-align: middle;
+
+	padding: 0;
+	margin: 0;
+
+	border: none;
+	outline: none;
+	appearance: none;
+
+	box-sizing: border-box;
+
+	user-select: none;
+
+	scrollbar-color: var(--line-d) var(--main);
+	scrollbar-width: thin;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+
+	overflow: hidden;
+}
+
+body {
+	background-color: black;
+}
+
+a:hover {
+	color: #FFF;
+}
+
+span {
+	color: inherit;
+}
+
+
+.color_iron { background: linear-gradient(135deg, #AAA, #777); }
+.color_bronze { background: linear-gradient(135deg, #B45F06, #993924); }
+.color_silver { background: linear-gradient(135deg, #C1C6D0, #949DAF); }
+.color_gold { background: linear-gradient(135deg, #FFE28A, #C1971C); }
+.color_diamond { background: linear-gradient(135deg, #CFE2F3, #6D9EEB); }
+
+.color_common {background: linear-gradient(135deg, #93C47D, #38761D); }
+.color_uncommon { background: linear-gradient(135deg, #F1C232, #E69138); }
+.color_rare { background: linear-gradient(135deg, #6FA8DC, #3C78D8); }
+.color_epic { background: linear-gradient(135deg, #814FC6, #7541BF); }
+.color_legendary { background: linear-gradient(135deg, #A64D79, #C8605D); }
+.color_transcendent { background: linear-gradient(135deg, #76A4AF 0%, #C0E99B 33%, #FFD4AA 66%, #E89AB3 100%); }
+.color_confluence { background: linear-gradient(135deg, #6A8DA7, #2E6F7E); }
+.color_divine { background: linear-gradient(135deg, #FFE599, #F9CB9C); }
+
+.color_attribute { background: linear-gradient(135deg, #B6D7A8, #6D9EEB); }
+.color_affliction { background: linear-gradient(135deg, #cc4125 30%, #aa0000 70%); }
+.color_boon { background: linear-gradient(135deg, #9daa6c 30%, #63761d 70%); }
+
+.color_none { color: var(--text-none); }
+
+.color_iron, .color_bronze, .color_silver, .color_gold, .color_diamond, .color_common, .color_uncommon, .color_rare, .color_epic, .color_legendary, .color_transcendent, .color_confluence, .color_divine, .color_attribute, .color_affliction, .color_boon {
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,610 @@
+{
+	"confluences": [
+		{
+			"name": "",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Action",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Alchemy",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Ambush",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Animate",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Anzu",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Arsenal",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Avatar",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Battlefield",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Behemoth",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Boundary",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Bounty",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Cataclysm",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Chaotic",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Charlatan",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Chimera",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Cyborg",
+			"restricted": true,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Cycle",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Dawn",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Desolate",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Discordant",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Doom",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Doppelganger",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Dragon",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Eclipse",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Edifice",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Effigy",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Empower",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Fertile",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Fey",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Firebird",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Force",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Forge",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Fortress",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Garuda",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Gate",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Glimeron",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Gorgon",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Griffin",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Guardian",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Harpy",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Harvest",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Hydra",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Immortal",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Juggernaut",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Karmic",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Kraken",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Leviathan",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Lotus",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Magitech",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Manticore",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Master",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Ministration",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Minotaur",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Mirage",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Monolith",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Mystic",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Nebula",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Nemesis",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Oasis",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Ocean",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Onslaught",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Phantasmagoria",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Phoenix",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Predatory",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Prison",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Prosperity",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Refracting",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Resonating",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Roc",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Sacrifice",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Scribe",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Serpent",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Simulacrum",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Skirmish",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Sky",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Soaring",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Sovereign",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Stellar",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Storm",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Succubus",
+			"restricted": true,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Swarm",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Talisman",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Thunderbird",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Time",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Tranquil",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Transfiguration",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Transgression",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Troll",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Twilight",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Undeath",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Unity",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Verdant",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Vessel",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Vision",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Volcano",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Vortex",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Weave",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Wendigo",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Wrath",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		},
+		{
+			"name": "Ziz",
+			"restricted": false,
+			"info": "",
+			"rarity": "Confluence"
+		}
+	]
+}

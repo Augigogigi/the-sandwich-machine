@@ -1,0 +1,588 @@
+{
+	"stones": [
+		{
+			"name":  null,
+			"rarity": null
+		},
+		{
+			"name":  "",
+			"rarity": null
+		},
+		{
+			"name":  "Adeptness",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Ape",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Armour",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Axe",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Balance",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "the Bat",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Bear",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Bee",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Bird",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Blight",
+			"rarity": "Unknown"
+		},
+		{
+			"name":  "Blood",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "Bone",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "the Bow",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Cage",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Cat",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Cattle",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Chain",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Claw",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "Cloth",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Clouds",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "the Cold",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "Coral",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Corruption",
+			"rarity": "Epic"
+		},
+		{
+			"name":  "the Crocodile",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Crystals",
+			"rarity": "Rare"
+		},
+		{
+			"name":  "Dancing",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "the Dark",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "Death",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "the Deep",
+			"rarity": "Rare"
+		},
+		{
+			"name":  "Deer",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Dimensions",
+			"rarity": "Legendary"
+		},
+		{
+			"name":  "Discord",
+			"rarity": "Epic"
+		},
+		{
+			"name":  "the Dog",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Duck",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Dust",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "the Earth",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Echoes",
+			"rarity": "Rare"
+		},
+		{
+			"name":  "the Elements",
+			"rarity": "Epic"
+		},
+		{
+			"name":  "the Eye",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Feast",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Feebleness",
+			"rarity": "Unknown"
+		},
+		{
+			"name":  "Fire",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Fish",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Flea",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Flesh",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "the Foot",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Fork",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Fox",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Frog",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Fungus",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Gathering",
+			"rarity": "Rare"
+		},
+		{
+			"name":  "Glass",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "the Goat",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Grazen",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Growth",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "the Gun",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Hair",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Hammer",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Hand",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Harmony",
+			"rarity": "Epic"
+		},
+		{
+			"name":  "the Heidel",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Hook",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Horse",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Hunger",
+			"rarity": "Rare"
+		},
+		{
+			"name":  "the Hunt",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Ice",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "Iron",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Knife",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Knowledge",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "Life",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "Light",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "Lightning",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "the Lizard",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Locust",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Lurker",
+			"rarity": "Unknown"
+		},
+		{
+			"name":  "Magic",
+			"rarity": "Common"
+		},
+		{
+			"name": "Malignity",
+			"rarity": "Epic"
+		},
+		{
+			"name":  "the Manatee",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Might",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Mirror",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "the Monkey",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Moon",
+			"rarity": "Rare"
+		},
+		{
+			"name":  "the Mouse",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Myriad",
+			"rarity": "Legendary"
+		},
+		{
+			"name":  "the Needle",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Net",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Octopus",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Omens",
+			"rarity": "Epic"
+		},
+		{
+			"name":  "the Pangolin",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Paper",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Plant",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Potency",
+			"rarity": "Epic"
+		},
+		{
+			"name":  "Purity",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "the Rabbit",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Rake",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Rat",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Renewal",
+			"rarity": "Epic"
+		},
+		{
+			"name":  "Resolve",
+			"rarity": "Rare"
+		},
+		{
+			"name":  "Runes",
+			"rarity": "Epic"
+		},
+		{
+			"name":  "Sand",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "the Sceptre",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Serenity",
+			"rarity": "Rare"
+		},
+		{
+			"name":  "the Shark",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Shield",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Shimmers",
+			"rarity": "Epic"
+		},
+		{
+			"name":  "Ships",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Shovel",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Sickle",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Sin",
+			"rarity": "Legendary"
+		},
+		{
+			"name":  "the Skunk",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Sloth",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Smoke",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "the Snake",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Song",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "the Spear",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Spider",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Spike",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Staff",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Stars",
+			"rarity": "Rare"
+		},
+		{
+			"name":  "the Sun",
+			"rarity": "Rare"
+		},
+		{
+			"name":  "Swiftness",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Sword",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Technology",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Tentacle",
+			"rarity": "Epic"
+		},
+		{
+			"name":  "Thread",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Traps",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Tree",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Trowel",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Turtle",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Vastness",
+			"rarity": "Legendary"
+		},
+		{
+			"name":  "Vehicles",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Venom",
+			"rarity": "Uncommon"
+		},
+		{
+			"name":  "Visages",
+			"rarity": "Legendary"
+		},
+		{
+			"name":  "the Void",
+			"rarity": "Legendary"
+		},
+		{
+			"name":  "the Wasp",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Water",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Whale",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Wheel",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Whip",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Wind",
+			"rarity": "Common"
+		},
+		{
+			"name":  "the Wing",
+			"rarity": "Epic"
+		},
+		{
+			"name":  "the Wolf",
+			"rarity": "Common"
+		},
+		{
+			"name":  "Wood",
+			"rarity": "Unknown"
+		},
+		{
+			"name":  "Zeal",
+			"rarity": "Rare"
+		}
+	]
+}

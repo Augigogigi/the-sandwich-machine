@@ -1,0 +1,874 @@
+{
+	"essences": [
+		{
+			"name": "",
+			"rarity": "Unknown",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Adept",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Ape",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Armour",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Axe",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Balance",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Bat",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Bear",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Bee",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Bird",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Blight",
+			"rarity": "Unknown",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Blood",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Bone",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Bow",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Cage",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Cat",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Cattle",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Chain",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Claw",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Cloth",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Cloud",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Cold",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Coral",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Corrupt",
+			"rarity": "Epic",
+			"restricted": true,
+			"info": ""
+		},
+		{
+			"name":  "Crocodile",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Crystal",
+			"rarity": "Rare",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Dance",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Dark",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Death",
+			"rarity": "Uncommon",
+			"restricted": true,
+			"info": ""
+		},
+		{
+			"name":  "Deep",
+			"rarity": "Rare",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Deer",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Dimension",
+			"rarity": "Legendary",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Discord",
+			"rarity": "Epic",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Dog",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Duck",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Dust",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Earth",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Echo",
+			"rarity": "Rare",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Elemental",
+			"rarity": "Epic",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Eye",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Feast",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Feeble",
+			"rarity": "Unknown",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Fire",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Fish",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Flea",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Flesh",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Foot",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Fork",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Fox",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Frog",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Fungus",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Gathering",
+			"rarity": "Rare",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Glass",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Goat",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Grazen",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Growth",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Gun",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Hair",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Hammer",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Hand",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Harmonic",
+			"rarity": "Epic",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Heidel",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Hook",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Horse",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Hunger",
+			"rarity": "Rare",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Hunt",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Ice",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Iron",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Knife",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Knowledge",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Life",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Light",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Lightning",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Lizard",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Locust",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Lurker",
+			"rarity": "Unknown",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Magic",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name": "Malign",
+			"rarity": "Epic",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Manatee",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Might",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Mirror",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Monkey",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Moon",
+			"rarity": "Rare",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Mouse",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Myriad",
+			"rarity": "Legendary",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Needle",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Net",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Octopus",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Omen",
+			"rarity": "Epic",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Pangolin",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Paper",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Plant",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Potent",
+			"rarity": "Epic",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Pure",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Rabbit",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Rake",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Rat",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Renewal",
+			"rarity": "Epic",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Resolute",
+			"rarity": "Rare",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Rune",
+			"rarity": "Epic",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Sand",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Sceptre",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Serene",
+			"rarity": "Rare",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Shark",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Shield",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Shimmer",
+			"rarity": "Epic",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Ship",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Shovel",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Sickle",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Sin",
+			"rarity": "Legendary",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Skunk",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Sloth",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Smoke",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Snake",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Song",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Spear",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Spider",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Spike",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Staff",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Star",
+			"rarity": "Rare",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Sun",
+			"rarity": "Rare",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Swift",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Sword",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Technology",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Tentacle",
+			"rarity": "Epic",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Thread",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Trap",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Tree",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Trowel",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Turtle",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Vast",
+			"rarity": "Legendary",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Vehicle",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Venom",
+			"rarity": "Uncommon",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Visage",
+			"rarity": "Legendary",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Void",
+			"rarity": "Legendary",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Wasp",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Water",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Whale",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Wheel",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Whip",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Wind",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Wing",
+			"rarity": "Epic",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Wolf",
+			"rarity": "Common",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Wood",
+			"rarity": "Unknown",
+			"restricted": false,
+			"info": ""
+		},
+		{
+			"name":  "Zeal",
+			"rarity": "Rare",
+			"restricted": false,
+			"info": ""
+		}
+	]
+}
