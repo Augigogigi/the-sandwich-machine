@@ -94,30 +94,22 @@
 									<Pad padding="var(--xs)">
 										<Flex spacing="var(--xs)" column>
 											<Area>
-												{#if $options.editing}
-													<InputLine bind:value={$build.name} placeholder="Build Name"/>
-												{:else}
-													<span style="font-size: 1.1rem; font-weight: bold;">
-														{#if [undefined, null, ""].includes($build.name)}
-															<span style="color: var(--text-none);">Unnamed Build</span>
-														{:else}
-															{$build.name}
-														{/if}
-													</span>
-												{/if}
+												<span style="font-size: 1.1rem; font-weight: bold;">
+													{#if [undefined, null, ""].includes($build.name)}
+														<span style="color: var(--text-none);">Unnamed Build</span>
+													{:else}
+														{$build.name}
+													{/if}
+												</span>
 											</Area>
 											<Area css="color: var(--text-d)">
-												{#if $options.editing}
-													<InputText bind:value={$build.description} placeholder="Build Description"></InputText>
-												{:else}
-													<span style="font-size: 0.9rem">
-														{#if [undefined, null, ""].includes($build.description)}
-															<i><span style="color: var(--text-none);">No Description Provided.</span></i>
-														{:else}
-															{$build.description}
-														{/if}
-													</span>
-												{/if}
+												<span style="font-size: 0.9rem">
+													{#if [undefined, null, ""].includes($build.description)}
+														<i><span style="color: var(--text-none);">No Description Provided.</span></i>
+													{:else}
+														{$build.description}
+													{/if}
+												</span>
 											</Area>
 										</Flex>
 									</Pad>

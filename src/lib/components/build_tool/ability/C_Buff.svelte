@@ -30,13 +30,9 @@
 		loaded = true;
 	});
 
-	function deleteBuff() {
-		build.update((b) => {
-			console.log(b.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex]);
-			b.essences[eIndex].abilities[aIndex].effects[effIndex].buffs = undefined;
-			console.log(b.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex]);
-			return b;
-		});
+	function deleteBuff(bIndex) {
+		$build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs.splice(bIndex, 1);
+		$build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs = $build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs;
 	}
 
 	$: {
@@ -58,7 +54,7 @@
 </style>
 
 <span>
-	<Flex align="center" css="font-size: 0.8rem;" inline wide={editingText} noWrap>
+	<Flex align="center" spacing="var(--mini-m)" css="font-size: 0.8rem;" inline wide={editingText} noWrap>
 		{#if $options.editing}
 			<Button onClick={() => {editingText = !editingText}} transparent>
 				{#if editingText}
@@ -66,6 +62,9 @@
 				{:else}
 					<i class="fa-solid fa-pen"></i>
 				{/if}
+			</Button>
+			<Button onClick={() => {deleteBuff(bIndex)}} transparent>
+				<i class="fa-solid fa-close"></i>
 			</Button>
 			<Button onClick={() => {
 				if ($build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].affliction === true) {
@@ -84,53 +83,57 @@
 					<i class="fa-regular fa-square"></i>
 				{/if}
 			</Button>
-			<DropdownMany
-				list={debuffModifiers}
-				bind:selected={$build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].modifiers}
-				let:dropdownClickHandler
-				let:currentListItem
-				maxWidth={160}
-			>
-				<Button slot="button" onClick={dropdownClickHandler} transparent>
-					<i class="fa-solid fa-boxes-stacked"></i>
-				</Button>
-				<span slot="content">
-					{currentListItem}
-				</span>
-			</DropdownMany>
-		{:else}
-			•&nbsp;
-		{/if}
-		{#if editingText}
-			<InputLine bind:value={$build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].name} placeholder="Unnamed Condition" />
-		{:else}
-			<Flex css={"vertical-align: revert;"}>
-				{#if ![undefined, null, ""].includes($build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].name)}
-					[<span
-					class:color_affliction={$build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].affliction === true}
-					class:color_boon={$build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].affliction === false}
-					class:color_none={$build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].affliction === undefined}
+			{#if $build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex]}
+				<DropdownMany
+					list={debuffModifiers}
+					bind:selected={$build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].modifiers}
+					let:dropdownClickHandler
+					let:currentListItem
+					maxWidth={160}
+				>
+					<Button slot="button" onClick={dropdownClickHandler} transparent>
+						<i class="fa-solid fa-boxes-stacked"></i>
+					</Button>
+					<span slot="content">
+						{currentListItem}
+					</span>
+				</DropdownMany>
+			{:else}
+				•&nbsp;
+			{/if}
+			{#if editingText}
+				<InputLine bind:value={$build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].name} placeholder="Unnamed Condition" />
+			{:else}
+				<Flex css={"vertical-align: revert;"}>
+					{#if ![undefined, null, ""].includes($build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].name)}
+						[<span
+						class:color_affliction={$build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].affliction === true}
+						class:color_boon={$build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].affliction === false}
+						class:color_none={$build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].affliction === undefined}
 					>{$build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].name}</span>]
-				{:else}
-					[<span style="color: var(--text-none); vertical-align: revert;">Unnamed Condition</span>]
-				{/if}
-			</Flex>
+					{:else}
+						[<span style="color: var(--text-none); vertical-align: revert;">Unnamed Condition</span>]
+					{/if}
+				</Flex>
+			{/if}
 		{/if}
 	</Flex>
 	{#if editingText}
 		<div style="height: var(--mini-m);"></div>
 		<InputText bind:value={$build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].text}></InputText>
 	{:else}
-		<span style="color: var(--text-none); vertical-align: revert;">
-			<span>(</span><!-- Cheating to avoid whitespace lol
-			--><span style="display: contents;">
-				{#each $build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].modifiers as _, mIndex}
-					<span class="ability_modifier">{$build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].modifiers[mIndex]}</span>
-				{:else}
-					<span>&nbsp;-&nbsp;)</span>
-				{/each}
+		{#if $build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex]}
+			<span style="color: var(--text-none); vertical-align: revert;">
+				<span>(</span><!-- Cheating to avoid whitespace lol
+				--><span style="display: contents;">
+					{#each $build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].modifiers as _, mIndex}
+						<span class="ability_modifier">{$build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].modifiers[mIndex]}</span>
+					{:else}
+						<span>&nbsp;-&nbsp;)</span>
+					{/each}
+				</span>
 			</span>
-		</span>
+		{/if}
 		<Area>
 			<Split split="1.6rem">
 				<Area slot="1"></Area>
