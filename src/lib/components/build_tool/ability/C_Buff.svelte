@@ -101,7 +101,8 @@
 			{:else}
 				•&nbsp;
 			{/if}
-			{#if editingText}
+		{/if}
+		{#if editingText}
 				<InputLine bind:value={$build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].name} placeholder="Unnamed Condition" />
 			{:else}
 				<Flex css={"vertical-align: revert;"}>
@@ -116,7 +117,6 @@
 					{/if}
 				</Flex>
 			{/if}
-		{/if}
 	</Flex>
 	{#if editingText}
 		<div style="height: var(--mini-m);"></div>

@@ -41,6 +41,7 @@ export const debuffModifiers = [
 	"Holy",
 	"Healing",
 	"Light",
+	"Magic",
 	"Poison",
 	"Unholy",
 	"Wounding",
