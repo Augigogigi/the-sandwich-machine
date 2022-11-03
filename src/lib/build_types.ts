@@ -2,36 +2,29 @@
 export const attributes = ["Power", "Speed", "Spirit", "Recovery"];
 
 export const abilityTypes = [undefined, "Special Attack", "Special Ability", "Spell", "Conjuration", "Ritual", "Aura", "Perception"];
+
 export const abilityModifiers = [
 	"Counter-Execute",
-	"Drain",
 	"Execute",
-	"Movement",
 	"Familiar",
 	"Melee",
+	"Movement",
 	"Ranged",
-	"Recovery",
 	"Summon",
 	"Teleport",
-
-	"Blood",
-	"Cleansing",
-	"Curse",
-	"Dark",
-	"Dimension",
-	"Disease",
-	"Holy",
-	"Light",
-	"Poison",
-	"Unholy",
-	"Wounding",
 ];
+
 export const debuffModifiers = [
 	"Stacking",
+];
+
+export const universalModifiers = [
 	"Damage-over-time",
 	"Drain",
 	"Recovery",
+];
 
+export const elementModifiers = [
 	"Blood",
 	"Cleansing",
 	"Curse",

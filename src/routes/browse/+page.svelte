@@ -55,21 +55,24 @@
 									<a href={"/account/" + $usernames.get(build.owner)}>{$usernames.get(build.owner)}</a>
 								</Flex>
 							</span>
-							<Flex align="center" spacing="var(--mini-l)" column wide>
-							<span style="font-size: 1.2rem; font-weight: bold; text-align: center;">
-								{#if [undefined, null, ""].includes(build.data.name)}
-									<span style="color: var(--text-none);">Unnamed Build</span>
-								{:else}
-									{build.data.name}
-								{/if}
-							</span>
-								<span style="color: var(--text-d); font-size: 0.9rem; text-align: center;">
-								{#if [undefined, null, ""].includes(build.data.description)}
-									<i><span style="color: var(--text-none);">No Description Provided.</span></i>
-								{:else}
-									{build.data.description}
-								{/if}
-							</span>
+							<Flex align="center" spacing="var(--mini-l)" css={"height: 9rem;"} column wide>
+								<span style="font-size: 1.2rem; font-weight: bold; text-align: center; width: 100%;">
+									{#if [undefined, null, ""].includes(build.data.name)}
+										<span style="color: var(--text-none);">Unnamed Build</span>
+									{:else}
+										{build.data.name}
+									{/if}
+								</span>
+								<Flex css="color: var(--text-d); font-size: 0.9rem; text-align: center; flex-grow: 1;" column wide>
+									{#if [undefined, null, ""].includes(build.data.description)}
+										<i><span style="color: var(--text-none);">No Description Provided.</span></i>
+									{:else}
+										<div style="max-height: 7rem; overflow: hidden; flex-grow: 1;">{build.data.description}</div>
+										<div style="position: relative; left: 0; top: -1rem;">
+											<div style="background: linear-gradient(0deg, var(--main), #00000000); position: absolute; width: 100%; height: 1rem"></div>
+										</div>
+									{/if}
+								</Flex>
 							</Flex>
 						</Flex>
 						<Flex align="center" spacing="var(--xs)" column>
