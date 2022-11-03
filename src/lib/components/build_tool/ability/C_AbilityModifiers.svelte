@@ -6,7 +6,7 @@
 	import DropdownMany from "../../common/input/DropdownMany.svelte";
 	import Flex from "../../common/layout/Flex.svelte";
 
-	import { abilityTypes, abilityModifiers } from "$lib/build_types";
+	import { abilityTypes, abilityModifiers, universalModifiers, elementModifiers } from "$lib/build_types";
 
 	export let eIndex: number;
 	export let aIndex: number;
@@ -47,7 +47,11 @@
 				</span>
 			</DropdownOne>
 			<DropdownMany
-				list={abilityModifiers}
+				list={[
+					...abilityModifiers,
+					...universalModifiers,
+					...elementModifiers,
+				]}
 				bind:selected={$build.essences[eIndex].abilities[aIndex].modifiers}
 				let:dropdownClickHandler
 				let:currentListItem

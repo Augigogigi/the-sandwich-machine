@@ -9,7 +9,7 @@
 	import InputLine from "$lib/components/common/input/InputLine.svelte";
 	import Split from "$lib/components/common/layout/Split.svelte";
 
-	import { universalModifiers, debuffModifiers, elementModifiers } from "$lib/build_types";
+	import { debuffModifiers, universalModifiers, elementModifiers } from "$lib/build_types";
 	import { apply_markdown } from "../text_markdown";
 
 	export let eIndex: number;
@@ -86,8 +86,8 @@
 				{#if $build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex]}
 					<DropdownMany
 						list={[
-							...universalModifiers,
 							...debuffModifiers,
+							...universalModifiers,
 							...elementModifiers,
 						]}
 						bind:selected={$build.essences[eIndex].abilities[aIndex].effects[effIndex].buffs[bIndex].modifiers}
